@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/colorRed"
+            android:gravity="center"
+            android:text="SĐT"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+        <EditText
+            android:imeOptions="actionNext"
+            android:paddingStart="4dp"
+
+            android:id="@+id/edt_nhapsdt"
+
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:layout_width="220dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/colorRed"
+            android:gravity="center"
+            android:text="Email"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+        <EditText
+            android:imeOptions="actionNext"
+            android:paddingStart="4dp"
+
+            android:id="@+id/edt_nhapemail"
+
+            android:textSize="16dp"
+            android:singleLine="true"
+            android:layout_width="220dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="@color/colorRed"
+            android:gravity="center"
+            android:text="Địa chỉ"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+        <EditText
+            android:imeOptions="actionDone"
+            android:paddingStart="4dp"
+
+            android:id="@+id/edt_nhapdiachi"
+
+            android:textSize="16dp"
+            android:singleLine="true"
+            android:layout_width="220dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>

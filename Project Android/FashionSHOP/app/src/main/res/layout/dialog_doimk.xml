@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:hint="Nhập mật khẩu cũ"
+        android:paddingStart="8dp"
+        android:layout_gravity="center"
+        android:id="@+id/edt_nhapmkcu"
+        android:imeOptions="actionNext"
+
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:layout_width="300dp"
+        android:layout_height="40dp" />
+
+    <EditText
+
+        android:imeOptions="actionNext"
+        android:hint="Nhập mật khẩu mới"
+        android:paddingStart="8dp"
+        android:id="@+id/edt_nhapmkmoi"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+
+        android:singleLine="true"
+        android:textSize="18sp" />
+    <EditText
+
+        android:imeOptions="actionDone"
+        android:hint="Nhập lại mật khẩu mới"
+        android:paddingStart="8dp"
+        android:layout_gravity="center"
+        android:id="@+id/edt_nhaplaimkmoi"
+
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:layout_width="300dp"
+        android:layout_height="40dp" />
+</LinearLayout>

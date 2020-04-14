@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.DangNhapActivity"
+    android:background="@color/colorBgr">
+    <EditText
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:hint="Nhập tài khoản"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/edt_mkdangnhap"
+        android:id="@+id/edt_tkdangnhap"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/stroke"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:hint="Nhập mật khẩu"
+        android:id="@+id/edt_mkdangnhap"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/stroke"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_dangnhap"
+        android:layout_below="@+id/edt_mkdangnhap"
+        android:layout_alignEnd="@+id/edt_mkdangnhap"
+        android:layout_marginTop="16dp"
+
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        android:text="Đăng nhập"
+        android:textSize="18sp"
+        android:background="@color/colorViolet"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   <CheckBox
+       android:imeOptions="actionNext"
+       android:checked="true"
+       android:id="@+id/chbox"
+       android:layout_alignBaseline="@+id/btn_dangnhap"
+       android:layout_alignStart="@+id/edt_mkdangnhap"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Lưu mật khẩu"/>
+    <Button
+
+        android:id="@+id/btn_didangki"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        android:text="Đăng Kí"
+        android:textSize="18sp"
+        android:background="@color/colorRed"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="false"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ThongTinUserActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarthongtinuser"
+        android:layout_width="match_parent"
+        app:title="Thông tin người dùng"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/colorWhite"
+        android:background="@color/colorViolet">
+
+    </androidx.appcompat.widget.Toolbar>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="300dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/stroke">
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/txt_username"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:textSize="24sp"
+                    android:background="@color/colorBgr"/>
+                <TextView
+                    android:id="@+id/txt_sdt"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:textSize="18sp"
+                    android:background="@drawable/stroke"/>
+                <TextView
+                    android:id="@+id/txt_email"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:textSize="18sp"
+                    android:background="@drawable/stroke"/>
+                <TextView
+
+                    android:id="@+id/txt_diachi"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="32dp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingTop="8sp"
+                    android:paddingBottom="8sp"
+                    android:textSize="18sp"
+                    android:background="@drawable/stroke"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_doithongtin"
+                android:layout_marginTop="32dp"
+                android:text="Chỉnh sửa thông tin"
+                android:background="@color/colorRed"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_doimk"
+                android:layout_marginTop="16dp"
+                android:text="Đổi mật khẩu"
+                android:background="@color/colorRed"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+</LinearLayout>

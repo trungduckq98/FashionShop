@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/searchview"
+        android:title="Search"
+        android:icon="@drawable/icon_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always"/>
+    <item
+        android:title="Giỏ hàng"
+        android:id="@+id/xdigiohang"
+        android:icon="@drawable/icons_cart"
+       />
+    <item
+        android:title="Tài khoản"
+        android:id="@+id/xdiuser"
+        android:icon="@drawable/icons_user"
+       />
+</menu>
